@@ -1,0 +1,102 @@
+ 
+  .nav {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #71B340;
+  }
+  
+  .nav-link.mein-link {
+    padding: 1.5rem 1.5rem !important;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .nav-link.mein-link {
+      padding: 1rem 0 !important;
+    }
+  }
+  
+  .nav-link:hover {
+    color: #0393D2;
+  }
+  
+  .nav-link.active {
+    color: #0393D2;
+  }
+  
+  .user i {
+    color: #ffffff;
+  }
+  
+  .user::after {
+    content: "";
+    display: none;
+  }
+  
+  .sub-menu {
+    text-align: center;
+  }
+  
+  .sub-menu li {
+    display: inline-block;
+  }
+  
+  .sub-menu li a {
+    padding: 0px 0.5rem;
+  }
+  
+  .search-engine {
+    padding: 12rem 0 5rem 0;
+    background: url(../images/section/banner-image.png);
+    background-size: cover;
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    min-height: 820px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .search-engine {
+      padding: 1rem 0;
+      background-attachment: fixed;
+    }
+  }
+  
+  .search-engine:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background: rgb(3, 146, 209);
+    background: linear-gradient(180deg, rgba(3, 146, 209, 0.3281687675) 0%, rgba(0, 0, 0, 0.762342437) 100%);
+  }
+  
+  .cust-tab li .nav-link,
+  .cust-tab li .nav-link.active {
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .cust-tab li .nav-link:hover,
+  .cust-tab li .nav-link.active:hover {
+    color: #0393D2;
+  }
+  
+  .cust-tab li .nav-link.active::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: #0393D2;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }

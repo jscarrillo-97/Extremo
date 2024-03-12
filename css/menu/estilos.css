@@ -1,0 +1,22 @@
+/* Estilo para el fondo del navbar y texto en los enlaces */
+.navbar {
+    background-color: #007BFF; /* Cambia el color de fondo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Cambia el color del texto de los enlaces */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-menu {
+    background-color: #007BFF; /* Cambia el color de fondo del menú desplegable */
+}
+
+.dropdown-menu a {
+    color: #fff; /* Cambia el color del texto en el menú desplegable */
+}
+
+/* Estilo para el botón del menú en dispositivos pequeños */
+.navbar-toggler-icon {
+    background-color: #fff; /* Cambia el color del icono del botón */
+}
